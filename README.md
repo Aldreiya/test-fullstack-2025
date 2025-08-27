@@ -90,7 +90,7 @@ Value berupa JSON string:
 4. Aplikasi berjalan di:
 
    ```
-   http://localhost:3000
+   http://localhost:6379
    ```
 
 ### Endpoint API
@@ -107,17 +107,15 @@ Value berupa JSON string:
     ```
   * Response jika berhasil:
 
-    ```json
-    {
-      "status": "success",
-      "message": "Welcome, Aberto Doni Sianturi"
-    }
+    ```
+    Welcome, aldre
     ```
   * Response jika gagal:
 
-    ```json
-    {
-      "status": "error",
-      "message": "Invalid username or password"
-    }
+    ```
+    User not found or wrong password
+    ```
+  * Jika data user di Redis tidak valid (misalnya JSON rusak), server akan mengembalikan string:
+    ```
+    Data error
     ```

@@ -9,8 +9,8 @@ Repository ini berisi dua program berbeda sebagai latihan fullstack:
 ├── factorial.js          # Program sederhana JavaScript (faktorial)
 └── Login/                # Aplikasi login sederhana menggunakan Go + Redis
 ├── go.mod
-├── main.go
-└── ...
+├── go.sum
+└── main.go
 
 ````
 

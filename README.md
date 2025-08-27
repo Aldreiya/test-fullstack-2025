@@ -117,5 +117,3 @@ Value berupa JSON string:
       "message": "Invalid username or password"
     }
     ```
-```
-

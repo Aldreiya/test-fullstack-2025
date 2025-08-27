@@ -1,4 +1,4 @@
-module github.com/Aldreiya/test-fullstack-2025/Login
+module github.com/Aldreiya/test-fullstack-2025/tree/main/Login
 
 go 1.25.0
 

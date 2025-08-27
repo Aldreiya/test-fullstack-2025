@@ -3,12 +3,16 @@
 Repository ini berisi dua program berbeda sebagai latihan fullstack:
 
 ## 📂 Struktur Repository
+
+```
 .
-├── factorial.js # Program sederhana JavaScript (faktorial)
-└── Login/ # Aplikasi login sederhana menggunakan Go + Redis
+├── factorial.js          # Program sederhana JavaScript (faktorial)
+└── Login/                # Aplikasi login sederhana menggunakan Go + Redis
 ├── go.mod
-├── go.sum
 ├── main.go
+└── ...
+
+````
 
 ## 1. Program Faktorial (JavaScript)
 
